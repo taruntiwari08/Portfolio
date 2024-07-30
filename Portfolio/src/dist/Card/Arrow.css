@@ -1,0 +1,10 @@
+.arrow-right {
+    display: inline-block;
+    margin-left: 0.5rem; /* Adjust spacing as needed */
+    width: 0;
+    height: 0;
+    border-top: 0.3rem solid transparent;
+    border-bottom: 0.3rem solid transparent;
+    border-left: 0.4rem solid currentColor;
+  }
+  
