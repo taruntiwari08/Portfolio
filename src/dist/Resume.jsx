@@ -9,7 +9,7 @@ function Resume() {
       </div>
 
       <label htmlFor="Education">
-        <div className="flex lg:justify-evenly flex-wrap">
+        <div className="flex lg:justify-evenly flex-wrap lg:flex-row flex-col ">
           <div className="flex font-semibold text-xl lg:text-3xl pr-52 py-3 ml-5 lg:ml-9  lg:py-1 font-roboto text-gray-900">
             Education
           </div>
