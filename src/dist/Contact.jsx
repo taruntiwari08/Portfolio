@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom'
 function Contact() {
   return (
     <div className="flex justify-around bg-slate-50 max-w-full max-h-full my-0 animate-slideUp flex-wrap-reverse">
-      <div className='flex-col justify-center items-center py-3 px-4 md:py-24 md:px-24 '>
-         <div className='md:text-5xl text-2xl font-bold font-roboto md:mt-6  mx-[20px]'>Contact</div>
-         <div className='text-sm font-roboto font-extralight mb-[10px]  md:my-4 mx-6 '>Looking forward to hearing from you</div>
-         <div className='md:text-2xl text-lg font-semibold font-roboto mt-2 md:mt-8 mx-6 '> Email </div>
-         <div className='text-sm font-roboto font-extralight  mb-[10px] md:my-4 mx-6 '>tiwaritarun700@gmail.com </div>
+      <div className='flex-col justify-center items-center py-3 px-4 lg:py-24 lg:px-24 '>
+         <div className='lg:text-5xl text-2xl font-bold font-roboto lg:mt-6  mx-[20px]'>Contact</div>
+         <div className='text-sm font-roboto font-extralight mb-[10px]  lg:my-4 mx-6 '>Looking forward to hearing from you</div>
+         <div className='lg:text-2xl text-lg font-semibold font-roboto mt-2 lg:mt-8 mx-6 '> Email </div>
+         <div className='text-sm font-roboto font-extralight  mb-[10px] lg:my-4 mx-6 '>tiwaritarun700@gmail.com </div>
 
          <div className="flex-row ">
-        <div className=" md:text-2xl text-lg  ml-[23px] font-semibold font-roboto mt-2 md:mt-7 ">
+        <div className=" lg:text-2xl text-lg  ml-[23px] font-semibold font-roboto mt-2 lg:mt-7 ">
           Connect On
         </div>
 
-        <div className="flex md:mt-4 md:space-x-6 space-x-4  my-[10px]  ml-[25px]  mb-6">
+        <div className="flex lg:mt-4 lg:space-x-6 space-x-4  my-[10px]  ml-[25px]  mb-6">
           <a href="https://www.linkedin.com/in/taruntiwari08/" className="text-gray-500 hover:text-gray-900">
             <svg
               className="w-4 h-4"
@@ -83,7 +83,7 @@ function Contact() {
 
         
 
-    <div className='flex justify-center items-center py-8 px-8 md:py-24 md:px-24'>
+    <div className='flex justify-center items-center py-8 px-8 lg:py-24 lg:px-24'>
       <ContactUs/>
     </div>
     </div>

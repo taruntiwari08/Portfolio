@@ -7,7 +7,7 @@ import edu from './ImgResources/edu.jpeg'
 function Projects() {
   return (
     <div className="flex-col bg-slate-50 max-w-full max-h-full my-0 animate-slideUp">
-      <div className="flex md:font-light text-3xl font-bold  md:text-5xl md:ml-40 py-5 ml-5  md:py-16 font-roboto text-gray-900">
+      <div className="flex lg:font-light text-3xl font-bold  lg:text-5xl lg:ml-40 py-5 ml-5  lg:py-16 font-roboto text-gray-900">
         {" "}
         Projects
       </div>

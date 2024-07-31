@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <hr className="md:mb-6 border-gray-200  " />
+      <hr className="lg:mb-6 border-gray-200  " />
       <footer className="bg-white space-x-2 px-6 font-roboto pb-4 flex">
         <div className="container flex  justify-between flex-wrap-reverse">
 
@@ -18,13 +18,13 @@ function Footer() {
           </span>
           </div>
 
-<div className="flex-row md:mt-11 my-2">
-        <div className=" flex text-lg md:justify-center md:items-center font-roboto  text-gray-900 font-bold mb-3 md:mt-[-40px] ">
+<div className="flex-row lg:mt-11 my-2">
+        <div className=" flex text-lg lg:justify-center lg:items-center font-roboto  text-gray-900 font-bold mb-3 lg:mt-[-40px] ">
         
           Connect On
         </div>
 
-        <div className="flex md:mt-4 md:space-x-6 space-x-4 mt-[-8px] ml-[2px] ">
+        <div className="flex lg:mt-4 lg:space-x-6 space-x-4 mt-[-8px] ml-[2px] ">
           <a href="https://www.linkedin.com/in/taruntiwari08/" className="text-gray-500 hover:text-gray-900">
             <svg
               className="w-4 h-4"
