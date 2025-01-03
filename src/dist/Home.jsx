@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div class="max-w-lg mx-auto p-4">
         <p class="text-justify leading-relaxed text-gray-700">
-          Hi, I'm Tarun,a frontend developer and a AI and Robotics student at MITS Gwalior with a strong foundation in C++, Python, and React. My journey in tech is driven by a passion for developing innovative solutions and a commitment to excellence.         </p>
+        Hi, I'm Tarun, a BTech student in Artificial Intelligence and Robotics, specializing in web and blockchain development. Experienced in ReactJS, Solidity, MongoDB, and more, I create innovative, user-friendly applications. Passionate about cryptocurrency and emerging technologies, I strive to deliver impactful solutions while continuously advancing my skills. </p>
         </div>
         <div className='flex justify-between  my-4'>
        <Link to="/resume"><div class="lg:w-36 lg:h-36 w-24 h-24 flex items-center justify-center rounded-full bg-yellow-500 border-solid border-[1px] border-black font-semibold cursor-pointer animate-slideUp  ">Resume</div>

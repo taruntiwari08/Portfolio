@@ -7,7 +7,170 @@ function Resume() {
         {" "}
         Resume
       </div>
+      <label htmlFor="Experience ">
+        <div className="flex lg:justify-between flex-wrap lg:flex-row flex-col lg:px-12  ">
+          <div className="flex font-semibold text-xl lg:text-3xl pr-52 py-3 ml-5 lg:ml-24  lg:py-1 font-roboto text-gray-900">
+            Experience
+          </div>
 
+          <div className="lg:flex-row flex-col lg:space-y-12 space-y-4  ml-5 lg:ml-20">
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] pb-2  lg:shadow-none shadow-lg ">
+              <div className="flex lg:flex-row flex-col ">
+
+                <div className="flex-col">
+                  <span className=" font-roboto font-semibold lg:text-xl text-base lg:py-5 lg:px-6 ">
+                    {" "}
+                    <a href="https://drive.google.com/drive/folders/144jPHPJ1xhW5iwafgEDttupZPm6qGsS4?usp=drive_link" className="hover:underline">
+                    Frontend Developer Intern | To Let Globe 
+                    </a>
+                    <br />
+                    <div className="font-roboto font-light lg:text-base text-sm lg:px-6 my-1 italic ">
+                  (Aug 2024 - Oct 2024)
+                </div>
+                  </span>
+                  <div className="lg:mt-[-15px]">
+                  <ul className="space-y-2  lg:px-6">
+                    <li className="font-roboto font-light py-1 lg:text-sm text-xs">
+                      {" "}
+                      ✦ Collaborated with designers and backend developers to ensure seamless integration and user experience.
+                    </li>
+                    <li className="font-roboto font-light lg:text-sm text-xs py-1">
+                      {" "}
+                      ✦ Maintained and enhanced the company website by creating new features and optimizing performance.
+                    </li>
+                    <li className="font-roboto font-light py-1 lg:text-sm text-xs">
+                      {" "}
+                      ✦ Debugged and resolved UI issues, improving website functionality and user satisfaction.
+                    </li>
+                    <li className="font-roboto font-light  lg:text-sm text-xs py-1">
+                      {" "}
+                      ✦ Developed and implemented reusable, responsive, and modular UI components.
+                    </li>
+                  </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </label>
+
+      <hr className="border-gray-600 lg:m-16 lg:flex hidden " />
+
+      <label htmlFor="Skills & Expertise">
+        <div className="flex lg:justify-between lg:flex-row flex-col lg:ml-40  ">
+          <div className="flex font-semibold text-xl  lg:text-3xl lg:-ml-[20px] ml-5 py-3  font-roboto text-gray-900">
+            <div className="flex lg:flex-col flex-row lg:mr-12 mt-3">
+              <span> Skills </span> <span class="p-1"></span>{" "}
+              <span> & Expertise</span>{" "}
+            </div>
+          </div>
+
+          <div className="lg:flex flex-col lg:space-y-4 lg:ml-32  ">
+            <div className="lg:flex lg:space-x-24"> 
+            <div className="lg:flex-col">
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                Computer languages |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ C++</li>
+                    <li>✦ Python</li>
+                    <li>✦ HTML</li>
+                    <li>✦ CSS</li>
+                    <li>✦ Javascript</li>
+                    <li>✦ Solidity</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Frameworks and Libraries |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ ReactJs</li>
+                    <li>✦ NodeJs</li>
+                    <li>✦ ExpressJs</li>
+                    <li>✦ Redux</li>
+                    <li>✦ Tailwind CSS</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Blockchain Development Tools |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ Smart Contracts</li>
+                    <li>✦ Truffle</li>
+                    <li>✦ Ganache</li>
+                    <li>✦ EtherJs</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            </div>
+
+            <div className="lg:flex-col">
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Databases |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ MongoDB</li>
+                    <li>✦ MySQL </li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Version Control and Collaboration |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ Git</li>
+                    <li>✦ GitHub </li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Languages Known |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ English</li>
+                    <li>✦ Hindi</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </label>
+      <hr className="border-gray-600 lg:m-16 lg:flex hidden " />
       <label htmlFor="Education">
         <div className="flex lg:justify-evenly flex-wrap lg:flex-row flex-col ">
           <div className="flex font-semibold text-xl lg:text-3xl pr-52 py-3 ml-5 lg:ml-9  lg:py-1 font-roboto text-gray-900">
@@ -92,99 +255,49 @@ function Resume() {
       </label>
       <hr className="border-gray-600 lg:m-16 lg:flex hidden " />
 
-      <label htmlFor="Skills & Expertise">
-        <div className="flex lg:justify-around lg:flex-row flex-col  lg:mr-32 ">
-          <div className="flex font-semibold text-xl  lg:text-3xl lg:-ml-[150px] ml-5 py-3  font-roboto text-gray-900">
-            <div className="flex lg:flex-col flex-row lg:mr-12 mt-3">
-              <span> Skills </span> <span class="p-1"></span>{" "}
-              <span> & Expertise</span>{" "}
-            </div>
-          </div>
-
-          <div className="lg:flex-row flex-col lg:space-y-4  lg:-ml-24">
-            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:shadow-none shadow-lg">
-              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
-                {" "}
-                Computer languages |
-                <br />
-                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
-                  <ul className="space-y-2">
-                    <li>✦ C++</li>
-                    <li>✦ Python</li>
-                    <li>✦ HTML</li>
-                    <li>✦ CSS</li>
-                    <li>✦ Javascript</li>
-                  </ul>
-                </div>
-                <br />
-              </div>
-            </div>
-            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 my-3 lg:shadow-none shadow-lg">
-              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
-                {" "}
-                Software Packages |
-                <br />
-                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
-                  <ul className="space-y-2">
-                    <li>✦ ReactJs</li>
-                    <li>✦ Redux</li>
-                    <li>✦ Tailwind CSS</li>
-                    <li>✦ Git</li>
-                    <li>✦ Github</li>
-                  </ul>
-                </div>
-                <br />
-              </div>
-            </div>
-            <div className="lg:bg-slate-50 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 my-3 lg:shadow-none shadow-lg">
-              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
-                {" "}
-                Languages Known |
-                <br />
-                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
-                  <ul className="space-y-2">
-                  <li>✦ English</li>
-                  <li>✦ Hindi</li>
-                  </ul>
-                </div>
-                <br />
-              </div>
-            </div>
-          </div>
-        </div>
-      </label>
-      <hr className="border-gray-600 lg:m-16 lg:flex hidden " />
-
       <label htmlFor="Achievments"></label>
       <div className="flex lg:justify-around lg:flex-row flex-col  ">
-        <div className="flex font-semibold text-xl  lg:text-3xl  lg:mt-6 py-1 ml-6  lg:-ml-10 font-roboto text-gray-900">
+        <div className="flex font-semibold text-xl  lg:text-3xl mt-2  lg:mt-6 py-1 ml-6  lg:-ml-10 font-roboto text-gray-900">
           Achievments
         </div>
 
         <div className="flex-col lg:bg-slate-50 bg-slate-100 rounded-lg px-5 py-2 lg:w-auto w-[320px] mx-5 lg:mr-5 my-3 mb-12 lg:shadow-none shadow-lg ">
           <div className=" font-roboto font-light lg:text-base text-sm py-2  italic ">
-            {" "} <p className="lg:flex hidden ml-32">
-            ✦ &nbsp; Achieved 90 Perecentage in CBSE Class 12 Board Exam <br />{" "}
-            &nbsp; &nbsp; &nbsp; and secured 2nd rank at Kendriya Vidyalaya No.
-            4. </p>
-            <p className=" lg:hidden flex-wrap text-justify leading-relaxed"> ✦ Achieved 90 Perecentage in CBSE Class 12 Board Exam and secured 2nd rank at Kendriya Vidyalaya No.
-            4. </p>
+            {" "}
+            <p className="lg:flex hidden ml-32">
+              ✦ &nbsp; Achieved 90 Perecentage in CBSE Class 12 Board Exam{" "}
+              <br /> &nbsp; &nbsp; &nbsp; and secured 2nd rank at Kendriya
+              Vidyalaya No. 4.{" "}
+            </p>
+            <p className=" lg:hidden flex-wrap text-justify leading-relaxed">
+              {" "}
+              ✦ Achieved 90 Perecentage in CBSE Class 12 Board Exam and secured
+              2nd rank at Kendriya Vidyalaya No. 4.{" "}
+            </p>
           </div>
 
           <div className=" font-roboto font-light lg:text-base text-sm py-2  italic ">
-            {" "} <p className="lg:flex hidden ml-32">
-            ✦ &nbsp; Achieved 88 Perecentage in CBSE Class 10 Board Exam <br />{" "}
-            &nbsp; &nbsp; &nbsp; and secured 3nd rank at Kendriya Vidyalaya No.
-            4. </p>
-            <p className=" lg:hidden flex-wrap text-justify leading-relaxed"> ✦ Achieved 88 Perecentage in CBSE Class 10 Board Exam and secured 3nd rank at Kendriya Vidyalaya No.
-            4. </p>
+            {" "}
+            <p className="lg:flex hidden ml-32">
+              ✦ &nbsp; Achieved 88 Perecentage in CBSE Class 10 Board Exam{" "}
+              <br /> &nbsp; &nbsp; &nbsp; and secured 3nd rank at Kendriya
+              Vidyalaya No. 4.{" "}
+            </p>
+            <p className=" lg:hidden flex-wrap text-justify leading-relaxed">
+              {" "}
+              ✦ Achieved 88 Perecentage in CBSE Class 10 Board Exam and secured
+              3nd rank at Kendriya Vidyalaya No. 4.{" "}
+            </p>
           </div>
           <div className=" font-roboto font-light lg:text-base text-sm py-2  italic ">
             {" "}
             <p className="lg:flex hidden ml-32">
-            ✦ &nbsp; Got commendable 99.34 Percentile in CUET(UG) 2022 
+              ✦ &nbsp; Got commendable 99.34 Percentile in CUET(UG) 2022
             </p>
-            <p className=" lg:hidden flex-wrap text-justify leading-relaxed"> ✦ Got commendable 99.34 Percentile in CUET(UG) 2022  </p>
+            <p className=" lg:hidden flex-wrap text-justify leading-relaxed">
+              {" "}
+              ✦ Got commendable 99.34 Percentile in CUET(UG) 2022{" "}
+            </p>
           </div>
         </div>
       </div>

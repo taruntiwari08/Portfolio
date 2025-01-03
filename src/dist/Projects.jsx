@@ -3,6 +3,7 @@ import Card from "./Card/Card";
 import blog from "./ImgResources/blog.jpg";
 import currency from './ImgResources/currencyConverter.jpg'
 import edu from './ImgResources/edu.jpeg'
+import profile from './ImgResources/profile.png'
 
 function Projects() {
   return (
@@ -12,6 +13,15 @@ function Projects() {
         Projects
       </div>
       <div>
+      <div className="flex items-center justify-center pb-5 mb-7">
+        <Card
+          title="Personal Portfolio"
+          pic={profile}
+          link="https://github.com/taruntiwari08/Portfolio"
+          content="A living showcase of my skills and experience, this portfolio is a reflection of my ongoing journey in the world of web development. Here, you'll find a selection of my most recent and notable projects, highlighting my expertise in frontend, backend,blockchain and full-stack development. Each project is a testament to my dedication to delivering cutting-edge solutions. "
+          deployLink='/'
+        />
+      </div>  
       <div className="flex items-center justify-center pb-5 mb-7">
         <Card
           title="Blog Web Application"

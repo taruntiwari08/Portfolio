@@ -5,10 +5,17 @@ import HamburgerMenu from "../Menu/HamburgerMenu";
 function Header() {
   return (
     <header className="shadow sticky z-50 top-0">
-      <nav className= "border-gray-200 px-4 lg:px-6 py-2.5 bg-white flex ">
-        <Link to ="/">
-       <div className="font-serif font-semibold lg:text-xl text-lg mt-[10px] lg:mt-[-55px] cursor-pointer "> <span className="lg:text-orange-500 lg:text-8xl mr-[-20px] text-white "> . </span> Tarun Tiwari <span className="lg:text-sm text-xs lg:text-black text-white font-extralight font-roboto  lg:mx-4 "> ( Frontend Developer )</span></div>
-       </Link>
+      <nav className="border-gray-200 px-4 lg:px-6 py-2.5 bg-white flex ">
+        <Link to="/">
+          <div className="font-serif font-semibold lg:text-xl text-lg mt-[10px] lg:mt-[-55px] cursor-pointer ">
+            {" "}
+            <span className="lg:text-orange-500 lg:text-8xl mr-[-20px] text-white ">
+              {" "}
+              .{" "}
+            </span>{" "}
+            Tarun Tiwari
+          </div>
+        </Link>
         <div className="flex justify-end ml-auto max-w-screen-xl">
           <ul className="lg:flex hidden space-x-4 mt-4 font-light font-roboto ">
             <li>
@@ -20,8 +27,7 @@ function Header() {
                   } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                 }
               >
-                Home 
-                
+                Home
               </NavLink>
             </li>
             <span className=" font-extrabold"> | </span>
@@ -66,7 +72,7 @@ function Header() {
           </ul>
         </div>
         <div class="lg:hidden">
-            <HamburgerMenu/>
+          <HamburgerMenu />
         </div>
       </nav>
     </header>
