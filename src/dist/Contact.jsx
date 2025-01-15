@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 function Contact() {
   return (
-    <div className="flex justify-around bg-slate-50 max-w-full max-h-full my-0 animate-slideUp flex-wrap-reverse">
-      <div className='flex-col justify-center items-center py-3 px-4 sm:py-24 lg:px-24 '>
+    <div className="flex justify-around bg-slate-50 max-w-full max-h-full my-0 animate-slideUp flex-wrap-reverse dark:bg-slate-900">
+      <div className='flex-col justify-center items-center py-3 px-4 sm:py-24 lg:px-24 dark:text-slate-200 '>
          <div className='lg:text-5xl text-2xl font-bold font-roboto lg:mt-6  mx-[20px]'>Contact</div>
          <div className='text-sm font-roboto font-extralight mb-[10px]  lg:my-4 mx-6 '>Looking forward to hearing from you</div>
          <div className='lg:text-2xl text-lg font-semibold font-roboto mt-2 lg:mt-8 mx-6 '> Email </div>

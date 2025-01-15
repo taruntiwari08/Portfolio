@@ -9,8 +9,8 @@ import dropbox from '../assets/ImgResources/dropbox.png'
 
 function Projects() {
   return (
-    <div className="flex-col bg-slate-50 max-w-full max-h-full my-0 animate-slideUp">
-      <div className="flex lg:font-light text-3xl font-bold  lg:text-5xl lg:ml-40 py-5 ml-5  lg:py-16 font-roboto text-gray-900">
+    <div className="flex-col bg-slate-50 dark:bg-slate-900  max-w-full max-h-full my-0 animate-slideUp">
+      <div className="flex lg:font-light text-3xl font-bold  lg:text-5xl lg:ml-40 py-5 ml-5  lg:py-16 font-roboto dark:text-slate-100  text-gray-900">
         {" "}
         Projects
       </div>

@@ -2,22 +2,19 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import HamburgerMenu from "../Menu/HamburgerMenu";
 
-function Header() {
+function Header({ toggleDarkMode }) {
   return (
     <header className="shadow sticky z-50 top-0">
-      <nav className="border-gray-200 px-4 lg:px-6 py-2.5 bg-white flex ">
+      <nav className="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-slate-950 bg-white flex justify-between items-center">
         <Link to="/">
-          <div className="font-serif font-semibold lg:text-xl text-lg mt-[10px] lg:mt-[-55px] cursor-pointer ">
+          <div className="font-serif dark:text-white font-semibold lg:text-xl text-lg mt-[10px] lg:mt-[-55px] cursor-pointer ">
             {" "}
-            <span className="lg:text-orange-500 lg:text-8xl mr-[-20px] text-white ">
-              {" "}
-              .{" "}
-            </span>{" "}
-            Tarun Tiwari
+            <span className="lg:text-orange-500 lg:text-8xl text-white dark:text-slate-950  ">.</span> Tarun Tiwari
           </div>
         </Link>
-        <div className="flex justify-end ml-auto max-w-screen-xl">
-          <ul className="lg:flex hidden space-x-4 mt-4 font-light font-roboto ">
+        
+        <div className="flex items-center space-x-4">
+          <ul className="lg:flex hidden space-x-4 mt-4 font-light font-roboto">
             <li>
               <NavLink
                 to="/"
@@ -30,7 +27,7 @@ function Header() {
                 Home
               </NavLink>
             </li>
-            <span className=" font-extrabold"> | </span>
+            <span className="font-extrabold"> | </span>
             <li>
               <NavLink
                 to="/resume"
@@ -43,7 +40,7 @@ function Header() {
                 Resume
               </NavLink>
             </li>
-            <span className=" font-extrabold"> | </span>
+            <span className="font-extrabold"> | </span>
             <li>
               <NavLink
                 to="/projects"
@@ -56,7 +53,7 @@ function Header() {
                 Projects
               </NavLink>
             </li>
-            <span className=" font-extrabold"> | </span>
+            <span className="font-extrabold"> | </span>
             <li>
               <NavLink
                 to="/contact"
@@ -70,8 +67,20 @@ function Header() {
               </NavLink>
             </li>
           </ul>
+
+          {/* Dark Mode Toggle Button */}
+          <button
+            onClick={toggleDarkMode}
+            className=" -mb-1 w-10 h-10 hidden md:block  bg-gray-200 dark:bg-gray-700 rounded-full transition-all duration-300 ease-in-out"
+            title="Toggle Dark Mode"
+          >
+            <span className="text-gray-700 dark:text-white text-lg">
+              {document.documentElement.classList.contains("dark") ? "🌙" : "🌞"}
+            </span>
+          </button>
         </div>
-        <div class="lg:hidden">
+
+        <div className="lg:hidden">
           <HamburgerMenu />
         </div>
       </nav>

@@ -27,7 +27,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="lg:w-[600px] w-[300px] h-[390px] lg:h-[500px] bg-slate-100 flex flex-col border-solid rounded-xl shadow-xl lg:p-4 ">
+    <div className="lg:w-[600px] w-[300px] h-[390px] lg:h-[500px] bg-slate-100 dark:bg-gray-200 flex flex-col border-solid rounded-xl shadow-xl lg:p-4 ">
     {alertMessage && (
       <div
         className={`mb-4 p-2 rounded text-white ${alertType === 'success' ? 'bg-green-500' : 'bg-red-500'}`}
@@ -38,9 +38,9 @@ export const ContactUs = () => {
 
    
     <form className='py-4 px-4 '  ref={form} onSubmit={sendEmail}>
-      <div className=' lg:h-[46px] h-8 lg:rounded-t-md rounded-t flex-col my-1 lg:my-3 mx-3'> 
+      <div className=' lg:h-[46px]  h-8 lg:rounded-t-md rounded-t flex-col my-1 lg:my-3 mx-3 '> 
       <div className='font-light lg:text-xl mb-2 text-base '>Name <span className='text-red-600 font-bold'>*</span></div>
-      <input className='lg:w-[360px] w-[200px] h-full border rounded-lg border-solid border-gray-400 pl-2' type="text" name="user_name" required />
+      <input className='lg:w-[360px] w-[200px]  h-full border rounded-lg border-solid border-gray-400 pl-2' type="text" name="user_name" required />
       </div> 
 
       <div className=' lg:h-[46px] h-8 lg:rounded-t-md rounded-t flex-col my-3 mx-3 '> 

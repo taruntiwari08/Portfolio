@@ -3,12 +3,12 @@ import { Link, NavLink } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <hr className="lg:mb-6 border-gray-200  " />
-      <footer className="bg-white space-x-2 px-6 font-roboto pb-4 flex">
-        <div className="container flex  justify-between flex-wrap-reverse">
+      <hr className="lg:pb-6 border-gray-200 dark:border-gray-800  dark:bg-slate-950  " />
+      <footer className="bg-white dark:bg-slate-950 space-x-2 px-6 font-roboto  pb-4 flex">
+        <div className="container flex  justify-between  flex-wrap-reverse">
 
-        <div className='my-2'>
-          <span className="text-sm text-gray-500 sm:text-center">
+        <div className='my- '>
+          <span className="text-sm text-gray-500 dark:text-slate-300 sm:text-center">
             © 2024
             <a href="/" className="hover:underline">
               taruntiwari
@@ -19,7 +19,7 @@ function Footer() {
           </div>
 
 <div className="flex-row lg:mt-11 my-2">
-        <div className=" flex text-lg lg:justify-center lg:items-center font-roboto  text-gray-900 font-bold mb-3 lg:mt-[-40px] ">
+        <div className=" flex text-lg lg:justify-center lg:items-center font-roboto dark:text-slate-300  text-gray-900 font-bold mb-3 lg:mt-[-40px] ">
         
           Connect On
         </div>
@@ -86,11 +86,11 @@ function Footer() {
         
         </div>
         <div className="my-2">
-          <span className=" text-lg  text-gray-900 font-bold">
+          <span className=" text-lg  text-gray-900 dark:text-gray-300 font-bold">
             Email
             <br />
             <Link to="/contact">
-              <span className=" text-sm text-gray-500 font-light">
+              <span className=" text-sm text-gray-500 font-light dark:text-gray-400">
                 tiwaritarun700@gmail.com
               </span>
             </Link>
