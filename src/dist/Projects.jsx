@@ -1,10 +1,11 @@
 import React from "react";
 import Card from "./Card/Card";
-import blog from "./ImgResources/blog.jpg";
-import currency from './ImgResources/currencyConverter.jpg'
-import edu from './ImgResources/edu.jpeg'
-import profile from './ImgResources/profile.png'
-import vote from './ImgResources/vote.png'
+import blog from "../assets/ImgResources/blog.jpg";
+import currency from '../assets/ImgResources/currencyConverter.jpg'
+import edu from '../assets/ImgResources/edu.jpeg'
+import profile from '../assets/ImgResources/profile.png'
+import vote from '../assets/ImgResources/vote.png'
+import dropbox from '../assets/ImgResources/dropbox.png'
 
 function Projects() {
   return (
@@ -41,6 +42,17 @@ function Projects() {
           deployLink='https://megablog-pied.vercel.app/'
         />
       </div>
+     
+      <div className="flex items-center justify-center pb-5 mb-7">
+        <Card
+          title="DropBox Dapp"
+          pic={dropbox}
+          link="https://github.com/taruntiwari08/DropBox-Client"
+          content="A decentralized file storage and retrieval application that allows users to securely upload, store, and retrieve files using blockchain technology and IPFS. This project ensures data immutability, security, and a seamless user experience through a clean and responsive interface."
+          deployLink='https://drop-box-client-c7kq.vercel.app/'
+        />
+      </div>
+
       <div className="flex items-center justify-center pb-5 mb-7">
         <Card
           title="Currency Converter"
