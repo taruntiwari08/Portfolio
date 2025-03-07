@@ -302,6 +302,11 @@ function Resume() {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center p-4 ">
+        <a href='/Resume.pdf' download="Tarun_Tiwari_Resume.pdf" className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+           Download Full Resume
+        </a>
+      </div>
     </div>
   );
 }
