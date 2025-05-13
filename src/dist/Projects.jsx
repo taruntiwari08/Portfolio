@@ -6,6 +6,7 @@ import edu from '../assets/ImgResources/edu.jpeg'
 import profile from '../assets/ImgResources/profile.png'
 import vote from '../assets/ImgResources/vote.png'
 import dropbox from '../assets/ImgResources/dropbox.png'
+import crowd  from '../assets/ImgResources/Crowd.jpg'
 
 function Projects() {
   return (
@@ -24,6 +25,17 @@ function Projects() {
           deployLink='/'
         />
       </div> 
+      <div className="flex items-center justify-center pb-5 mb-7">
+        <Card
+          title="DappFundX"
+          pic={crowd}
+          link="/"
+          content={`A decentralized crowdfunding platform on ethereum  showcasing my blockchain skills. Users can create and support campaigns using ETH and USDT. Built with Solidity, IPFS, React.js, and Ethers.js, it ensures transparency, seamless interactions, and secure fund management with features like one-click withdrawals and contributor refunds.
+<br /><br /><em>Note:</em> <i> This application is currently deployed on the Sepolia testnet. Please do not donate real ETH or USDT, as you may lose your funds. </i>`}
+
+          deployLink='https://crowd-funding-client-topaz.vercel.app/'
+        />
+      </div>
       <div className="flex items-center justify-center pb-5 mb-7">
         <Card
           title="Decentralized Voting DApp"
