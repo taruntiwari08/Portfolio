@@ -75,7 +75,7 @@ function Projects() {
         />
       </div>
 
-      <div className="flex items-center justify-center pb-5 mb-7">
+      <div className="flex items-center justify-center pb-5 ">
         <Card
           title="Edu Skills (Fully Responsive)"
           pic={edu}
