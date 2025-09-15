@@ -7,6 +7,7 @@ import profile from '../assets/ImgResources/profile.png'
 import vote from '../assets/ImgResources/vote.png'
 import dropbox from '../assets/ImgResources/dropbox.png'
 import crowd  from '../assets/ImgResources/Crowd.jpg'
+import eventEasePic from '../assets/ImgResources/eventEasePic.png'
 
 function Projects() {
   return (
@@ -36,6 +37,19 @@ function Projects() {
           deployLink='https://crowd-funding-client-topaz.vercel.app/'
         />
       </div>
+      <div className="flex items-center justify-center pb-5 mb-7">
+  <Card
+    title="EventEase – Event Management Platform"
+    pic={eventEasePic} 
+    link="https://github.com/taruntiwari08/eventEase-client" 
+    content={`A community-driven event management application designed for both organizers and attendees. 
+Users can book events, earn and redeem wallet points, and securely pay via Razorpay integration. 
+Organizers get a powerful dashboard to manage events, track bookings, and engage with their audience. 
+The platform also features a real-time chat for community interactions, making events more engaging and connected.`}
+    deployLink='https://event-ease-client.vercel.app/' 
+  />
+</div>
+
       <div className="flex items-center justify-center pb-5 mb-7">
         <Card
           title="Decentralized Voting DApp"

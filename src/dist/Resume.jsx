@@ -34,10 +34,6 @@ function Resume() {
                       {" "}
                       ✦ Collaborated with designers and backend developers to ensure seamless integration and user experience.
                     </li>
-                    <li className="font-roboto font-light lg:text-sm text-xs py-1">
-                      {" "}
-                      ✦ Maintained and enhanced the company website by creating new features and optimizing performance.
-                    </li>
                     <li className="font-roboto font-light py-1 lg:text-sm text-xs">
                       {" "}
                       ✦ Debugged and resolved UI issues, improving website functionality and user satisfaction.
@@ -52,7 +48,43 @@ function Resume() {
                 </div>
               </div>
             </div>
+                        <div className="lg:bg-slate-50  dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] pb-2  lg:shadow-none shadow-lg ">
+              <div className="flex lg:flex-row flex-col  ">
+
+                <div className="flex-col">
+                  <span className=" font-roboto font-semibold lg:text-xl text-base lg:py-5 lg:px-6 ">
+                    {" "}
+                    <a href="https://drive.google.com/drive/folders/144jPHPJ1xhW5iwafgEDttupZPm6qGsS4?usp=drive_link" className="hover:underline">
+                    Full Stack Development Intern | Aurelion Enterprise
+                    </a>
+                    <br />
+                    <div className="font-roboto font-light lg:text-base text-sm lg:px-6 my-1 italic ">
+                  (June 2025 - Aug 2025)
+                </div>
+                  </span>
+                  <div className="lg:mt-[-15px]">
+                  <ul className="space-y-2  lg:px-6">
+                    <li className="font-roboto font-light py-1 lg:text-sm text-xs">
+                      {" "}
+                      ✦ Implemented and deployed Future and Options Trading Strategies.
+                    </li>
+                    <li className="font-roboto font-light lg:text-sm text-xs py-1">
+                      {" "}
+                      ✦ Developed Full Stack financial markets tools.
+                    </li>
+                    <li className="font-roboto font-light py-1 lg:text-sm text-xs">
+                      {" "}
+                      ✦ Conducted fundamental and technical analysis of stocks to identify investment opportunities
+                    </li>
+                  </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
           </div>
+
+          
         </div>
       </label>
 
@@ -94,59 +126,19 @@ function Resume() {
                 <br />
                 <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
                   <ul className="space-y-2">
-                    <li>✦ ReactJs</li>
-                    <li>✦ NodeJs</li>
-                    <li>✦ ExpressJs</li>
-                    <li>✦ Redux</li>
-                    <li>✦ Tailwind CSS</li>
-                  </ul>
-                </div>
-                <br />
-              </div>
-            </div>
-            <div className="lg:bg-slate-50 dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
-              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
-                {" "}
-                Blockchain Development Tools |
-                <br />
-                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
-                  <ul className="space-y-2">
-                    <li>✦ Smart Contracts</li>
-                    <li>✦ Truffle</li>
-                    <li>✦ Ganache</li>
-                    <li>✦ EtherJs</li>
-                  </ul>
-                </div>
-                <br />
-              </div>
-            </div>
-            </div>
+                      <li>✦ Tailwind CSS</li>
+                      <li>✦ Bootstrap</li>
+                      <li>✦ ReactJS</li>
+                      <li>✦ NodeJS</li>
+                      <li>✦ ExpressJS</li>
+                      <li>✦ Redux</li>
+                      <li>✦ Numpy</li>
+                      <li>✦ Pandas</li>
+                      <li>✦ Matplotlib</li>
+                      <li>✦ Seaborn</li>
+                      <li>✦ Sklearn</li>
+                      <li>✦ OpenCV</li>
 
-            <div className="lg:flex-col">
-            <div className="lg:bg-slate-50 dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
-              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
-                {" "}
-                Databases |
-                <br />
-                <div className=" font-roboto dark:bg-slate-900 dark:text-gray-300 font-light lg:text-base text-xs lg:py-4 py-1  italic">
-                  <ul className="space-y-2">
-                    <li>✦ MongoDB</li>
-                    <li>✦ MySQL </li>
-                    <li>✦ InterPlanetary File System(IPFS)</li>
-                  </ul>
-                </div>
-                <br />
-              </div>
-            </div>
-            <div className="lg:bg-slate-50 dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
-              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
-                {" "}
-                Version Control and Collaboration |
-                <br />
-                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
-                  <ul className="space-y-2">
-                    <li>✦ Git</li>
-                    <li>✦ GitHub </li>
                   </ul>
                 </div>
                 <br />
@@ -161,6 +153,60 @@ function Resume() {
                   <ul className="space-y-2">
                     <li>✦ English</li>
                     <li>✦ Hindi</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+            </div>
+
+            <div className="lg:flex-col">
+
+              <div className="lg:bg-slate-50 dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Blockchain Development Tools |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ Smart Contracts</li>
+                    <li>✦ Truffle</li>
+                    <li>✦ Ganache</li>
+                    <li>✦ EtherJs</li>
+                    <li>✦ Hardhat</li>
+                    <li>✦ Remix</li>
+                    <li>✦ Web3.js</li>
+                    <li>✦ Metamask</li>
+                    <li>✦ Sepolia</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+                        <div className="lg:bg-slate-50 dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Databases |
+                <br />
+                <div className=" font-roboto dark:bg-slate-900 dark:text-gray-300 font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ MongoDB</li>
+                    <li>✦ MySQL </li>
+                    <li>✦ InterPlanetary File System(IPFS)</li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+            </div>
+                        <div className="lg:bg-slate-50 dark:bg-slate-900 dark:text-gray-300 bg-slate-100 rounded-lg px-1 lg:w-auto w-[320px] mx-5 lg:mr-5 lg:my-0 my-3 lg:shadow-none shadow-lg">
+              <div className=" font-roboto font-semibold lg:text-xl text-base  py-2  ">
+                {" "}
+                Version Control and Collaboration |
+                <br />
+                <div className=" font-roboto font-light lg:text-base text-xs lg:py-4 py-1  italic">
+                  <ul className="space-y-2">
+                    <li>✦ Git</li>
+                    <li>✦ GitHub </li>
                   </ul>
                 </div>
                 <br />
@@ -303,7 +349,7 @@ function Resume() {
         </div>
       </div>
       <div className="flex items-center justify-center p-4 ">
-        <a href='/Resume.pdf' download="Tarun_Tiwari_Resume.pdf" className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+        <a href='/Resume.pdf' download="Tarun Tiwari Resume.pdf" className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
            Download Full Resume
         </a>
       </div>
