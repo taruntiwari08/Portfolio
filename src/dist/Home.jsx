@@ -52,7 +52,7 @@ function Home() {
         </div>
         <div class="max-w-prose mx-auto p-4">
         <p class="text-justify leading-relaxed text-gray-700 dark:text-gray-300">
-       <BlurText delay={120} text="Hi, I'm Tarun, a BTech student in Artificial Intelligence and Robotics, specializing in web and blockchain development. Experienced in ReactJS, Solidity, MongoDB, and more, I create innovative, user-friendly applications. Passionate about cryptocurrency and emerging technologies, I strive to deliver impactful solutions while continuously advancing my skills."/> </p>
+       <BlurText delay={120} text="Hi, I'm Tarun, a passionate Full Stack and Blockchain Developer specializing in building scalable web applications and decentralized solutions. I develop secure smart contracts, interactive frontend interfaces, and RESTful APIs using technologies like React.js, Node.js, Express, MongoDB, and Solidity. My focus is on creating efficient, user-centric, and reliable digital solutions that combine innovation with real-world functionality."/> </p>
         </div>
         <div className='flex justify-between  my-4'>
        <Link to="/resume"><div class="lg:w-36 lg:h-36 w-24 h-24 flex items-center justify-center rounded-full bg-yellow-500 border-solid border-[1px] border-black font-semibold cursor-pointer animate-slideUp animate-flipIn  ">Resume</div>
